@@ -1,0 +1,10 @@
+name	kind	location	note
+left ITR	repeat_region	1..145	AAV2 inverted terminal repeat
+CMV enhancer	enhancer	170..550	
+CMV promoter	promoter	551..756	
+chimeric intron	intron	772..1004	beta-globin and IgG heavy chain
+EGFP	CDS	1021..1740	enhanced green fluorescent protein
+WPRE	misc_feature	1747..2335	woodchuck hepatitis post-transcriptional regulatory element
+bGH polyA	polyA_signal	2352..2576	bovine growth hormone polyadenylation signal
+right ITR	repeat_region	2600..2744	AAV2 inverted terminal repeat
+reverse sequencing primer	primer_bind	complement(1760..1780)	reads back across the transgene
