@@ -227,7 +227,10 @@ class TestClaims:
         assert "PolyForm Noncommercial License 1.0.0" in README
 
     def test_the_distribution_name_is_the_one_that_installs(self) -> None:
-        import tomllib
+        try:
+            import tomllib
+        except ModuleNotFoundError:  # Python 3.10
+            import tomli as tomllib
 
         with (ROOT / "pyproject.toml").open("rb") as handle:
             configured = tomllib.load(handle)
