@@ -10,6 +10,8 @@ Illustrator or Inkscape as something to edit rather than a picture of
 something. The same input draws the same bytes, so two maps can be compared
 with `diff`.
 
+![Plasmid Map](assets/plasmid_map.png)
+
 ## Install
 
 ```bash
